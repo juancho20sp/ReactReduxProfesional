@@ -11,9 +11,13 @@ const PokemonCard = () => {
         <Image
           centered
           src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png'
+          alt="Pokemon image"
         />
+
         <h2 className='PokemonCard-title'>Ditto</h2>
+
         <Divider />
+        
         <Label color={MAIN_COLOR}>
           normal
         </Label>
